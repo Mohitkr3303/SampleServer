@@ -3,10 +3,6 @@ const fs = require("fs");
 
 const Home = fs.readFileSync("./index.html","utf-8");
 
-console.log(__filename);
-
-
-
 const PORT = 2000;
 const hostname = "localhost"
 
